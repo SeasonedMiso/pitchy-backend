@@ -5,8 +5,8 @@ const app = express();
 const port = 80;
 const data = require("./sentencestest.json");
 const cors = require("cors");
-const MeCab = new require("mecab-async"),
-  mecab = new MeCab();
+//const MeCab = new require("mecab-async"),
+//mecab = new MeCab();
 
 app.use(cors());
 app.get("/", (req, res) => {
