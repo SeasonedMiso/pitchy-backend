@@ -2,7 +2,7 @@
 
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 80;
 const data = require("./sentencestest.json");
 const cors = require("cors");
 const MeCab = new require("mecab-async"),
